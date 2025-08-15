@@ -1,4 +1,21 @@
-
+.cabeçalho{margin: 0%;
+          padding: 0%;}
+.cabeçalho{background-color: aquamarine;
+          color: black;
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          padding: 24px;}
+.cabeçalho image {width: 10%;}
+.cabeçalho-lista-item{margin: 30px;
+                     font-size: 30px;
+                     display: inline;}
+.local{background-image: linear-gradient(#e30d0d);
+      color: aliceblue;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 24px;}
 
 
 
