@@ -1,6 +1,6 @@
 .cabeçalho{margin: 0%;
           padding: 0%;}
-.cabeçalho{background-color: aquamarine;
+.cabeçalho{background-color: rgb(1, 150, 100);
           color: black;
           display: flex;
           justify-content: space-around;
@@ -10,12 +10,33 @@
 .cabeçalho-lista-item{margin: 30px;
                      font-size: 30px;
                      display: inline;}
-.local{background-image: linear-gradient(#e30d0d);
-      color: aliceblue;
+.local{background-image: linear-gradient(#e30d0d #dcf309);
+      
       display: flex;
       justify-content: space-around;
       align-items: center;
       padding: 24px;}
+
+.local-imagem{width: 10%;}
+.local-título{padding: 24px;}
+.produtos{background-color: #027023;
+         color: black;}
+.produtos-imagem{width: 10%;}
+.produtos-todos{display: grid;
+               grid-template-columns: 33% 33% 33%;}
+.produtos-ind{text-align: center;}
+.produtos-título{text-align: center;
+                font-size: 30px;
+                padding: 24px 0;}
+
+
+.Rodapé{background-color: #027023;
+       text-align: center;}
+.Rodapé-ícone{width: 5%;
+            height: 10px;
+            padding:24px 0;}
+
+
 
 
 
